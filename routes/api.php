@@ -19,3 +19,5 @@ Route::post('materia',[\App\Http\Controllers\MateriaController::class,'store']);
 Route::get('materia/{materia}',[\App\Http\Controllers\MateriaController::class,'show']); 
 Route::put('materia/{materia}',[\App\Http\Controllers\MateriaController::class,'update']); 
 Route::delete('materia/{materia}',[\App\Http\Controllers\MateriaController::class,'destroy']); 
+
+Route::apiResource('estudiante',\App\Http\Controllers\EstudianteController::class); 
