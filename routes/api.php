@@ -21,3 +21,4 @@ Route::put('materia/{materia}',[\App\Http\Controllers\MateriaController::class,'
 Route::delete('materia/{materia}',[\App\Http\Controllers\MateriaController::class,'destroy']); 
 
 Route::apiResource('estudiante',\App\Http\Controllers\EstudianteController::class); 
+Route::apiResource('docente',\App\Http\Controllers\DocenteController::class);
